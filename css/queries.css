@@ -1,0 +1,33 @@
+/******************************/
+/* <----Below 1344px (Smaller Desktop )----> */
+
+@media (max-width: 84em) {
+  .heading-primary {
+    font-size: 10rem;
+  }
+}
+
+/******************************/
+/* <----Below 1200px (Landscape Tablets )----> */
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .grid {
+    column-gap: 1.6rem;
+  }
+}
+
+/******************************/
+/* <----Below 944px (Tablets )----> */
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .img-about {
+    width: 32rem;
+    height: 40rem;
+  }
+}

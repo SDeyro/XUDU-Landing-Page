@@ -1,0 +1,92 @@
+/******************************/
+/* <----REUSEABLE COMPONENTS----> */
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  row-gap: 3.2rem;
+  column-gap: 6.4rem;
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.heading-primary {
+  font-size: 12rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.heading-secondary {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  margin-bottom: 6.4rem;
+}
+
+.subheading {
+  display: block;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #495057;
+  margin-bottom: 1.6rem;
+  text-align: center;
+  letter-spacing: 0.75px;
+}
+
+.highlight {
+  position: relative;
+  color: #0b111e;
+}
+
+.highlight::after {
+  display: block;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  transform: scale(1.07, 1.05) skewX(-15deg);
+  background-image: linear-gradient(to top left, #4a4d4a, #91948f);
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  color: #ced4da;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+}
+
+.btn:hover,
+.btn:active {
+  color: #868e96;
+}
+
+.social-icon {
+  height: 1.8rem;
+  width: 1.8rem;
+}
